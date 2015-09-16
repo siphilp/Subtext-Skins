@@ -1,0 +1,635 @@
+﻿/*
+	Theme Name: Leia
+	Theme URI: http://kapikua.com/
+	Description: Theme dedicated to mi princess...
+	Version: English 1.0
+	Author: Kapikua
+	Converted to Subtext Theme[Simon Philp - http://www.siphilp.co.uk]*/
+body {
+background-color:#fff;
+font-family:Arial, Helvetica, sans-serif;
+color:#546367;
+margin:0;
+padding:0;
+}
+
+
+
+.links .title {
+padding-left:15px;
+margin-top:10px;
+}
+
+.header2 {
+color:#9C0;
+font-size:105%;
+letter-spacing:-1px;
+margin:0;
+padding:0 0 0 15px;
+}
+
+input,textarea {
+border:1px solid #000;
+color:#333;
+}
+
+textarea {
+width:550px;
+}
+
+ul li {
+font-size:80%;
+}
+
+h1 {
+font-size:120%;
+color:#333;
+margin:30px 0 0 20px;
+}
+
+h1 a {
+color:#FFF;
+text-decoration:none;
+}
+
+.avatar {
+padding:3px;
+}
+
+.liout {
+font-size:100%;
+border-right:1px solid #CCC;
+margin:-5px -5px -5px 10px;
+padding:5px;
+}
+
+a {
+color:#26408B;
+}
+
+.fontb {
+font-size:120% !important;
+}
+
+.fontc {
+font-size:90% !important;
+}
+
+.subtitle {
+padding-left:20px;
+color:#FFF;
+}
+
+#cabecera {
+background-image:url(images/cab.png);
+background-repeat:no-repeat;
+width:643px;
+height:300px;
+position:absolute;
+top:33px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:28px;
+color:#069;
+font-weight:700;
+margin:0;
+padding:120px 0 0 35px;
+}
+
+.previousNext {
+margin-left:25px;
+}
+
+h2 {
+color:#318796;
+font:12px/160% "Arial", Arial, "Bitstream Vera Sans", sans-serif;
+font-size:28px;
+letter-spacing:-1px;
+margin:00;
+padding:0;
+}
+
+h2 a {
+color:#318796;
+text-decoration:none;
+}
+
+h3 {
+font-size:13px;
+font-weight:400;
+background-color:#F1F1F1;
+color:#318796;
+border-top:2px solid #318796;
+margin:0;
+padding:5px;
+}
+
+h3 a {
+text-decoration:underline;
+color:#318796;
+font-weight:700;
+}
+
+h4 {
+text-align:justify;
+font-size:13px;
+font-weight:400;
+}
+
+h4 blockquote {
+background-color:#D6DCDE;
+border:3px solid #929B9D;
+width:80%;
+margin:10px auto;
+padding:5px;
+}
+
+h4 a {
+color:#27406F;
+text-decoration:none;
+font-weight:700;
+}
+
+h5 {
+font-size:11px;
+background-color:#303030;
+background-image:url(images/fondo_fint.png);
+background-repeat:no-repeat;
+color:#fff;
+font-weight:400;
+margin:0;
+padding:8px;
+}
+
+.blackblock
+{
+background-image:none !important;
+font-size:11px;
+background-color:#303030;
+color:#fff;
+font-weight:400;
+margin:0;
+padding:8px;
+}
+
+h5 a {
+text-decoration:none;
+color:#CCC;
+}
+
+h5 ul {
+list-style:none;
+margin:0 0 5px;
+padding:0;
+}
+
+h5 ul li {
+display:inline;
+margin:0;
+}
+
+/* IDs */
+#menuh {
+width:643px;
+height:33px;
+position:absolute;
+top:0;
+left:0;
+background-color:#546367;
+background-image:url(images/fondo_azul.png);
+background-repeat:repeat-x;
+background-position:top;
+}
+
+#menuh ul {
+list-style:none;
+color:#fff;
+font-size:13px;
+margin:8px 0 0 30px;
+padding:0;
+}
+
+#menuh ul li a {
+color:#fff;
+text-decoration:none;
+}
+
+#menuh ul li a:hover {
+color:#fff;
+text-decoration:underline;
+}
+
+#post {
+width:643px;
+position:absolute;
+left:0;
+top:280px;
+z-index:100;
+font-size:90%;
+padding:20px 0 0;
+}
+
+#video {
+text-align:center;
+}
+
+.buscador {
+background-image:url(images/fondo_buscador.png);
+background-repeat:repeat-x;
+position:absolute;
+left:644px;
+height:81px;
+text-align:center;
+width:360px;
+}
+
+#searchform {
+margin:30px 0 0;
+}
+
+#azul {
+background-image:url(images/fondo_azul.png);
+position:absolute;
+left:644px;
+top:82px;
+height:177px;
+border-bottom:12px solid #D4D8D9;
+font-size:11px;
+color:#fff;
+width:360px;
+}
+
+#azul h2 {
+color:#fff;
+font:Arial, verdana, sans-serif;
+font-size:24px;
+letter-spacing:-1px;
+margin:0;
+padding:0 10px;
+}
+
+#azul p {
+letter-spacing:0.1em;
+text-align:justify;
+margin:0;
+padding:0 10px;
+}
+
+#azul img {
+margin:0 10px;
+}
+
+#menu {
+position:absolute;
+background-color:#333;
+top:272px;
+left:644px;
+width:360px;
+padding:15px 0 0;
+}
+
+#izquierda {
+width:165px;
+float:left;
+padding:0 0 20px 20px;
+}
+
+#derecha {
+width:165px;
+margin-left:180px;
+}
+
+#menu ul {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+#menu ul li {
+list-style:none;
+margin:0;
+padding:0 0 0 25px;
+}
+
+#menu ul li ul {
+list-style:none;
+margin:0 0 0 10px;
+padding:0;
+}
+
+#menu ul li ul li {
+font-size:11px;
+margin:3px 0 0;
+padding:0;
+}
+
+#var {
+font-size:12px;
+border:1px solid #999;
+background-color:#303030;
+clear:both;
+margin:15px 9px 0 8px;
+padding:8px;
+}
+
+#var ol {
+color:#FFF;
+margin:8px 0 0;
+padding:0;
+}
+
+#var ol li a {
+text-decoration:none;
+color:#CCC;
+font-weight:700;
+}
+
+#totalcomentarios {
+background-color:#000;
+color:#9C0;
+font-size:16px;
+font-weight:700;
+letter-spacing:1px;
+margin:0;
+padding:5px 5px 5px 10px;
+}
+
+#metacoment {
+height:40px;
+font-size:14px;
+margin:15px 0 0;
+padding:4px 0 0 4px;
+}
+
+#avatar {
+float:left;
+}
+
+#usuario {
+line-height:15px;
+margin:0;
+padding:0;
+}
+
+#usuario a {
+text-decoration:underline;
+color:#069;
+}
+
+#usuario p {
+margin:2px 0 0;
+padding:0;
+}
+
+#comentario {
+background-color:#F2F2F2;
+border:1px solid #E8E8E8;
+font-size:12px;
+margin:0;
+padding:0 7px;
+}
+
+#comentario a {
+color:#27406F;
+}
+
+#pie {
+background-color:#666;
+color:#FFF;
+font-size:11px;
+margin:15px 0 0;
+}
+
+#pie a {
+text-decoration:none;
+color:#9C0;
+}
+
+#pie ul {
+margin:10px 0 0 20px;
+padding:15px 0;
+}
+
+#pie ul li {
+margin-bottom:5px;
+}
+
+#pie ol {
+margin:5px;
+padding:2px;
+}
+
+#nav {
+font-size:11px;
+text-align:center;
+border-bottom:5px solid #666;
+padding:20px;
+}
+
+#nav a {
+color:#333;
+text-decoration:none;
+}
+
+#nav a:hover {
+color:#000;
+text-decoration:underline;
+}
+
+#postcomment {
+font-size:18px;
+margin:20px 0 0;
+}
+
+/* Class */
+.tags {
+background-image:url(images/icono_tag.png);
+background-repeat:no-repeat;
+padding-left:24px;
+margin-left:5px;
+}
+
+.comentarios {
+background-image:url(images/icono_comentario.png);
+background-repeat:no-repeat;
+padding-left:24px;
+margin-left:5px;
+}
+
+.categoria {
+background-image:url(images/icono_categoria.png);
+background-repeat:no-repeat;
+padding-left:24px;
+margin-left:5px;
+}
+
+.feedo {
+background-image:url(images/feed.png);
+background-repeat:no-repeat;
+padding-left:18px;
+margin-left:5px;
+}
+
+.ad {
+background-image:url(images/icono_ad.png);
+background-repeat:no-repeat;
+padding-left:24px;
+margin-left:5px;
+}
+
+.as {
+color:#3BB000;
+text-decoration:none;
+}
+
+.de {
+color:#09C;
+text-decoration:none;
+}
+
+.technorati {
+padding-left:20px;
+background-image:url(images/tecno.png);
+background-repeat:no-repeat;
+margin:0;
+}
+
+.delicio {
+background-image:url(images/del.png);
+background-repeat:no-repeat;
+margin:0;
+padding:0 0 0 20px;
+}
+
+.inputext {
+border:1px solid #99AA92;
+background-color:#fff;
+color:#6A7F61;
+width:191px;
+}
+
+.boton {
+border:1px solid #99AA92;
+background-color:#D4E0CE;
+color:#6A7F61;
+width:90px;
+height:20px;
+}
+
+.tiempo {
+font-size:11px;
+}
+
+.sindicar {
+background-image:url(images/rss.png);
+background-repeat:no-repeat;
+background-position:left;
+padding-left:45px;
+margin-left:5px;
+}
+
+.post {
+width:610px;
+margin:0 0 30px 15px;
+}
+
+.autor {
+color:#318796;
+font-size:13px;
+font-weight:700;
+}
+
+.imagen {
+margin:7px;
+}
+
+#searchWrapper {
+position:relative;
+width:100%;
+}
+
+* html #searchWrapper {
+display:none;
+}
+
+.search {
+width:100%;
+float:none;
+margin:0 0 5px;
+padding:0;
+}
+
+.search input {
+margin-left:5px;
+padding:0;
+}
+
+.search input.searchterm {
+width:150px;
+border:solid 1px #444;
+}
+
+#search-results {
+position:absolute;
+width:300px;
+text-align:left;
+border:solid 1px #47737E;
+left:660px;
+top:83px;
+background-color:#CFD3D4;
+z-index:9;
+}
+
+
+
+#searchResults ul {
+width:298px;
+}
+
+#searchResults ul,#searchResults ul li {
+margin-left:0;
+}
+
+.search-progress {
+position:absolute;
+left:500px;
+z-index:999;
+}
+
+.title,#menu h2 {
+color:#9C0;
+font:Arial, verdana, sans-serif;
+font-size:105%;
+letter-spacing:-1px;
+margin:0;
+padding:0;
+}
+
+h3 a:hover,h4 a:hover,h5 a:hover,#var ol li a:hover {
+text-decoration:underline;
+}
+
+h5 p,#var p {
+margin:0 0 5px;
+padding:0;
+}
+
+#menuh ul li,#var ol li {
+display:inline;
+}
+
+#menu ul li ul li a,#menu a {
+text-decoration:none;
+color:#5D8F2B;
+}
+
+#menu ul li ul li a:hover,#menu a:hover,#pie a:hover {
+text-decoration:underline;
+color:#7EE916;
+}
+.Syndication a:hover{text-decoration:none !important;}
+
+#searchResults h5 {
+margin-left:5px;
+}
+
+.innerbox h5{background-image:none !important;color:#CFD3D4;font-weight:bold;}
